@@ -37,7 +37,9 @@ import {
   IonTitle,
   IonToolbar,
 } from '@ionic/vue';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { camera, trash, close } from 'ionicons/icons';
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
 import { usePhotoGallery, UserPhoto } from '@/composables/usePhotoGallery';
 
 const { photos, takePhoto } = usePhotoGallery();
